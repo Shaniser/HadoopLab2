@@ -43,6 +43,7 @@ public class AirportWC implements WritableComparable {
 
     @Override
     public void write(DataOutput dataOutput) throws IOException {
+        dataOutput.writeInt(id);
         dataOutput.writeInt();
     }
 
