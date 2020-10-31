@@ -22,7 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faa5e3bc-ceff-4450-846d-f97184ce9a96" name="Default Changelist" comment="" />
+    <list default="true" id="faa5e3bc-ceff-4450-846d-f97184ce9a96" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/bmstu/hadoop/lab2/AirportFlightsJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/bmstu/hadoop/lab2/AirportFlightsJoin.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604128168604</updated>
       <workItem from="1604128171136" duration="1064000" />
-      <workItem from="1604130067110" duration="4762000" />
+      <workItem from="1604130067110" duration="5022000" />
     </task>
     <servers />
   </component>
@@ -107,9 +109,9 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="100" y="57" width="1240" height="738" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1604130808150" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1604130090038">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1604135430894">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1604130090038" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1604135430894" />
   </component>
 </project>
