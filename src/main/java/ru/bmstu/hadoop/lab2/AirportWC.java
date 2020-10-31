@@ -9,6 +9,15 @@ import java.io.IOException;
 public class AirportWC implements WritableComparable {
     private int id;
     private int indicator;
+
+    public int getId() {
+        return id;
+    }
+
+    public int getIndicator() {
+        return indicator;
+    }
+
     @Override
     public int compareTo(Object o) {
         AirportWC other = (AirportWC) o;
