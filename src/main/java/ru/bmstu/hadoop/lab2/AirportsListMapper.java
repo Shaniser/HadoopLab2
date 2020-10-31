@@ -1,4 +1,7 @@
 package ru.bmstu.hadoop.lab2;
 
-public class AirportsListMapper extends Mapper<> {
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class AirportsListMapper extends Mapper<LongWritable, > {
 }
