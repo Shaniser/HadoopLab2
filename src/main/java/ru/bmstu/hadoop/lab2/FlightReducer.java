@@ -33,6 +33,9 @@ public class FlightReducer extends Reducer<AirportWC, Text, Text, Text> {
                 delaySum += delay;
                 delayCount++;
             }
+
+            StringBuilder sb = new StringBuilder();
+            
         }
     }
 }
