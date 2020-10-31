@@ -11,12 +11,14 @@ public class FlightReducer extends Reducer<AirportWC, Text, Text, Text> {
     protected void reduce(AirportWC key, Iterable<Text> value, Context context) throws IOException, InterruptedException {
         float delaySum = 0;
         int delayCount = 0;
+        int minDelay;
+        int maxDelay;
 
         Iterator<Text> iterator = value.iterator();
         String airport = iterator.next().toString();
 
         if (iterator.hasNext()) {
-            
+
         }
     }
 }
