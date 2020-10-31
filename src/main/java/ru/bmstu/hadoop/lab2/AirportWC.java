@@ -49,6 +49,6 @@ public class AirportWC implements WritableComparable {
 
     @Override
     public void readFields(DataInput dataInput) throws IOException {
-        id = 
+        id = dataInput.readInt();
     }
 }
