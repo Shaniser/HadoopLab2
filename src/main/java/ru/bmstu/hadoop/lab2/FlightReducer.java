@@ -14,5 +14,9 @@ public class FlightReducer extends Reducer<AirportWC, Text, Text, Text> {
 
         Iterator<Text> iterator = value.iterator();
         String airport = iterator.next().toString();
+
+        if (iterator.hasNext()) {
+            
+        }
     }
 }
