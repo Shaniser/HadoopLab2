@@ -12,9 +12,8 @@ public class AirportWC implements WritableComparable {
     @Override
     public int compareTo(Object o) {
         AirportWC other = (AirportWC) o;
-        if (id > other.id) {
-            
-        }
+        int ans = id - other.id;
+        if (ans == 0)
         return 0;
     }
 
