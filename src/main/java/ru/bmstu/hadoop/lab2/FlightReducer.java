@@ -22,7 +22,7 @@ public class FlightReducer extends Reducer<AirportWC, Text, Text, Text> {
             minDelay = delay;
             maxDelay = delay;
             delaySum += delay;
-            
+            delayCount = 1;
         }
     }
 }
