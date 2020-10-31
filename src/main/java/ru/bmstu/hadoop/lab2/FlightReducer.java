@@ -34,15 +34,15 @@ public class FlightReducer extends Reducer<AirportWC, Text, Text, Text> {
                 delayCount++;
             }
 
-            StringBuilder sb = new StringBuilder();
-            sb.append("Min delay: ");
-            sb.append(minDelay);
-            sb.append("Average delay: ");
-            sb.append(delaySum / delayCount);
-            sb.append("Max delay: ");
-            sb.append(maxDelay);
+            StringBuilder delayInfo = new StringBuilder();
+            delayInfo.append("Min delay: ");
+            delayInfo.append(minDelay);
+            delayInfo.append("Average delay: ");
+            delayInfo.append(delaySum / delayCount);
+            delayInfo.append("Max delay: ");
+            delayInfo.append(maxDelay);
 
-            
+            context.write(new Text(airport), new Text(delayInfo.toString()));
         }
     }
 }
