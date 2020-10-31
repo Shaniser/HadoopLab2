@@ -13,7 +13,7 @@ public class AirportsListMapper extends Mapper<LongWritable, Text, AirportWC, Te
         if (!values[0].equals("Code")) {
             AirportWC airportWC = new AirportWC();
 
-            int id = 
+            int id = values[0].replaceAll("^\"+|\"+$", "");
         }
     }
 }
