@@ -1,4 +1,7 @@
 package ru.bmstu.hadoop.lab2;
 
-public class FlightGC {
+import org.apache.hadoop.io.WritableComparator;
+
+public class FlightGC extends WritableComparator {
+    
 }
