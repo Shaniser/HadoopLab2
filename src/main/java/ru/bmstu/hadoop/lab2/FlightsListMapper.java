@@ -1,4 +1,10 @@
 package ru.bmstu.hadoop.lab2;
 
-public class FlightsListMapper {
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class FlightsListMapper extends Mapper<LongWritable, Text, AirportWC, Text> {
+    @Override
+    
 }
