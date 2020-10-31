@@ -20,6 +20,7 @@ public class AirportFlightsJoin {
         job.setPartitionerClass(AirportPartitioner.class);
         job.setGroupingComparatorClass(FlightGC.class);
         job.setReducerClass(FlightReducer.class);
+        job.setMapOutputKeyClass(AirportWC.class);
         
 
 
