@@ -16,7 +16,13 @@ public class FlightsListMapper extends Mapper<LongWritable, Text, AirportWC, Tex
 
             if (cancelCode != 1 && !delayStr.isEmpty()) {
                 if (Float.parseFloat(delayStr) > 0) {
-                    
+                    AirportWC airportWC = new AirportWC();
+
+                    int id = Integer.parseInt(values[0].replaceAll("^\"+|\"+$", ""));
+                    airportWC.setId(id);
+                    airportWC.setIndicator(0);
+
+                    context.write(airportWC, new Text(values[1].replaceAll("^\"+|\"+$", "")));
                 }
             }
         }
