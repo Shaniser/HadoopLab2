@@ -22,11 +22,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faa5e3bc-ceff-4450-846d-f97184ce9a96" name="Default Changelist" comment="" />
+    <list default="true" id="faa5e3bc-ceff-4450-846d-f97184ce9a96" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/bmstu/hadoop/lab2/AirportWC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/bmstu/hadoop/lab2/AirportWC.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604128168604</updated>
-      <workItem from="1604128171136" duration="446000" />
+      <workItem from="1604128171136" duration="765000" />
     </task>
     <servers />
   </component>
