@@ -11,7 +11,8 @@ public class FlightsListMapper extends Mapper<LongWritable, Text, AirportWC, Tex
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         String[] values = value.toString().split(",");
         if (!values[0].equals("\"YEAR\"")) {
-            float cancelCode = Float.parseFloat(values[19])
+            float cancelCode = Float.parseFloat(values[19]);
+            
         }
     }
 }
