@@ -38,7 +38,7 @@ public class AirportWC implements WritableComparable {
 
     @Override
     public int hashCode() {
-        
+        return id;
     }
 
     @Override
