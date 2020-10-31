@@ -20,7 +20,7 @@ public class FlightsListMapper extends Mapper<LongWritable, Text, AirportWC, Tex
 
                     int id = Integer.parseInt(values[14]);
                     airportWC.setId(id);
-                    airportWC.setIndicator(0);
+                    airportWC.setIndicator(1);
 
                     context.write(airportWC, new Text(delayStr));
                 }
