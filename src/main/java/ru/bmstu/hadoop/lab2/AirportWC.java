@@ -50,5 +50,6 @@ public class AirportWC implements WritableComparable {
     @Override
     public void readFields(DataInput dataInput) throws IOException {
         id = dataInput.readInt();
+        indicator = dataInput.readInt();
     }
 }
