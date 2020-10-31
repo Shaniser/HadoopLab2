@@ -13,6 +13,6 @@ public class FlightReducer extends Reducer<AirportWC, Text, Text, Text> {
         int delayCount = 0;
 
         Iterator<Text> iterator = value.iterator();
-        String airport
+        String airport = 
     }
 }
