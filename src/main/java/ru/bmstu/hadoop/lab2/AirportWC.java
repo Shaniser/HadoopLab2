@@ -9,7 +9,6 @@ import java.io.IOException;
 public class AirportWC implements WritableComparable {
     @Override
     public int compareTo(Object o) {
-
         return 0;
     }
 
