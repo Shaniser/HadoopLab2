@@ -10,6 +10,14 @@ public class AirportWC implements WritableComparable {
     private int id;
     private int indicator;
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setIndicator(int indicator) {
+        this.indicator = indicator;
+    }
+
     public int getId() {
         return id;
     }
