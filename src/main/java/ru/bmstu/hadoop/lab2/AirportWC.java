@@ -14,8 +14,9 @@ public class AirportWC implements WritableComparable {
         AirportWC other = (AirportWC) o;
         int ans = id - other.id;
         if (ans == 0)
-            return 
-        return 0;
+            return indicator - other.indicator;
+        else
+            return ans;
     }
 
     @Override
