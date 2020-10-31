@@ -5,4 +5,6 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
 public class AirportsListMapper extends Mapper<LongWritable, Text, AirportWC, Text> {
+    @Override
+    
 }
