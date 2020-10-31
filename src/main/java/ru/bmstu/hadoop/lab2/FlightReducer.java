@@ -6,6 +6,8 @@ import org.apache.hadoop.mapreduce.Reducer;
 import java.io.IOException;
 import java.util.Iterator;
 
+import static java.lang.Math.*;
+
 public class FlightReducer extends Reducer<AirportWC, Text, Text, Text> {
     @Override
     protected void reduce(AirportWC key, Iterable<Text> value, Context context) throws IOException, InterruptedException {
@@ -26,6 +28,8 @@ public class FlightReducer extends Reducer<AirportWC, Text, Text, Text> {
 
             while (iterator.hasNext()) {
                 delay = Float.parseFloat(iterator.next().toString());
+                minDelay = min(minDelay, delay);
+                maxDelay = max(maxDelay, delay);
                 
             }
         }
