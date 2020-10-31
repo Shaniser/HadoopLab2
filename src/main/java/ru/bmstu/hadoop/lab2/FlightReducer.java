@@ -1,4 +1,8 @@
 package ru.bmstu.hadoop.lab2;
 
-public class FlightReducer extends Reducer<AirportWC, > {
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Reducer;
+
+public class FlightReducer extends Reducer<AirportWC, Text, Text, Text> {
+    
 }
