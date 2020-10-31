@@ -21,6 +21,8 @@ public class FlightReducer extends Reducer<AirportWC, Text, Text, Text> {
             float delay = Float.parseFloat(iterator.next().toString());
             minDelay = delay;
             maxDelay = delay;
+            delaySum += delay;
+            
         }
     }
 }
