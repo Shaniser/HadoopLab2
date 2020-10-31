@@ -35,7 +35,7 @@ public class FlightReducer extends Reducer<AirportWC, Text, Text, Text> {
             }
 
             StringBuilder sb = new StringBuilder();
-            
+            sb.append("")
         }
     }
 }
