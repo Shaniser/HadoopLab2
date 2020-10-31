@@ -42,7 +42,7 @@ public class FlightReducer extends Reducer<AirportWC, Text, Text, Text> {
             sb.append("Max delay: ");
             sb.append(maxDelay);
 
-            ont
+            
         }
     }
 }
