@@ -8,6 +8,6 @@ public class FlightGC extends WritableComparator {
     public int compare(WritableComparable first, WritableComparable second) {
         AirportWC a = (AirportWC) first;
         AirportWC b = (AirportWC) second;
-        return Integer.compare()
+        return Integer.compare(a.getId(), b.getId());
     }
 }
