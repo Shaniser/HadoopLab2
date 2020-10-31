@@ -37,7 +37,9 @@ public class AirportWC implements WritableComparable {
     }
 
     @Override
-    public int hash
+    public int hashCode() {
+        
+    }
 
     @Override
     public void write(DataOutput dataOutput) throws IOException {
