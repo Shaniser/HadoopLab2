@@ -5,7 +5,7 @@ import org.apache.hadoop.io.WritableComparator;
 
 public class FlightGC extends WritableComparator {
     public FlightGC() {
-        super();
+        super(AirportWC.class, true);
     }
     @Override
     public int compare(WritableComparable first, WritableComparable second) {
