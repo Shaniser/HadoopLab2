@@ -17,7 +17,7 @@ public class AirportsListMapper extends Mapper<LongWritable, Text, AirportWC, Te
             airportWC.setId(id);
             airportWC.setIndicator(0);
 
-            context.write();
+            context.write(airportWC, );
         }
     }
 }
