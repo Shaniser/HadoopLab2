@@ -12,6 +12,7 @@ public class AirportsListMapper extends Mapper<LongWritable, Text, AirportWC, Te
         String[] values = value.toString().split(",(?! )");
         if (!values[0].equals("Code")) {
             AirportWC airportWC = new AirportWC();
+
             
         }
     }
