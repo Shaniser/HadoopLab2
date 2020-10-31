@@ -23,6 +23,10 @@ public class FlightReducer extends Reducer<AirportWC, Text, Text, Text> {
             maxDelay = delay;
             delaySum += delay;
             delayCount = 1;
+
+            while (iterator.hasNext()) {
+                
+            }
         }
     }
 }
