@@ -13,7 +13,9 @@ public class FlightsListMapper extends Mapper<LongWritable, Text, AirportWC, Tex
         if (!values[0].equals("\"YEAR\"")) {
             float cancelCode = Float.parseFloat(values[19]);
 
-            if (cancelCode != 1)
+            if (cancelCode != 1 && !values[18].isEmpty()) {
+                
+            }
         }
     }
 }
