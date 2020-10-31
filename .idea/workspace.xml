@@ -22,7 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faa5e3bc-ceff-4450-846d-f97184ce9a96" name="Default Changelist" comment="" />
+    <list default="true" id="faa5e3bc-ceff-4450-846d-f97184ce9a96" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/bmstu/hadoop/lab2/FlightReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/bmstu/hadoop/lab2/FlightReducer.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604128168604</updated>
       <workItem from="1604128171136" duration="1064000" />
-      <workItem from="1604130067110" duration="2933000" />
+      <workItem from="1604130067110" duration="3142000" />
     </task>
     <servers />
   </component>
