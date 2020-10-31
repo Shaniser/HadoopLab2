@@ -17,7 +17,7 @@ public class FlightReducer extends Reducer<AirportWC, Text, Text, Text> {
         float maxDelay;
 
         Iterator<Text> iterator = value.iterator();
-        String airport = iterator.next().toString();
+        String airport = "Airport: " + iterator.next().toString();
 
         if (iterator.hasNext()) {
             float delay = Float.parseFloat(iterator.next().toString());
@@ -34,11 +34,11 @@ public class FlightReducer extends Reducer<AirportWC, Text, Text, Text> {
                 delayCount++;
             }
 
-            String delayInfo = "Min delay: " +
+            String delayInfo = "| Min delay: " +
                     minDelay +
-                    "Average delay: " +
+                    " | Average delay: " +
                     (delaySum / delayCount) +
-                    "Max delay: " +
+                    " | Max delay: " +
                     maxDelay;
             context.write(new Text(airport), new Text(delayInfo));
         }
