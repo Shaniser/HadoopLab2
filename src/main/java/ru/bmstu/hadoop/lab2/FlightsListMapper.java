@@ -18,7 +18,7 @@ public class FlightsListMapper extends Mapper<LongWritable, Text, AirportWC, Tex
                 if (Float.parseFloat(delayStr) > 0) {
                     AirportWC airportWC = new AirportWC();
 
-                    int id = Integer.parseInt(values[14].replaceAll("^\"+|\"+$", ""));
+                    int id = Integer.parseInt(values[14]));
                     airportWC.setId(id);
                     airportWC.setIndicator(0);
 
