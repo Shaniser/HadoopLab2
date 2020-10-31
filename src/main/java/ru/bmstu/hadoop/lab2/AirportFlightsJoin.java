@@ -21,9 +21,6 @@ public class AirportFlightsJoin {
         job.setGroupingComparatorClass(FlightGC.class);
         job.setReducerClass(FlightReducer.class);
         job.setMapOutputKeyClass(AirportWC.class);
-        
-
-
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(IntWritable.class);
         job.setNumReduceTasks(2);
