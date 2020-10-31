@@ -1,0 +1,7 @@
+ru/bmstu/hadoop/lab2/FlightsListMapper.class
+ru/bmstu/hadoop/lab2/AirportPartitioner.class
+ru/bmstu/hadoop/lab2/AirportsListMapper.class
+ru/bmstu/hadoop/lab2/AirportWC.class
+ru/bmstu/hadoop/lab2/FlightGC.class
+ru/bmstu/hadoop/lab2/AirportFlightsJoin.class
+ru/bmstu/hadoop/lab2/FlightReducer.class

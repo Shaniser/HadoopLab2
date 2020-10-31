@@ -1,0 +1,7 @@
+/Users/shaniser/Desktop/Hadoop/HadoopLab2/src/main/java/ru/bmstu/hadoop/lab2/AirportFlightsJoin.java
+/Users/shaniser/Desktop/Hadoop/HadoopLab2/src/main/java/ru/bmstu/hadoop/lab2/AirportsListMapper.java
+/Users/shaniser/Desktop/Hadoop/HadoopLab2/src/main/java/ru/bmstu/hadoop/lab2/FlightsListMapper.java
+/Users/shaniser/Desktop/Hadoop/HadoopLab2/src/main/java/ru/bmstu/hadoop/lab2/AirportPartitioner.java
+/Users/shaniser/Desktop/Hadoop/HadoopLab2/src/main/java/ru/bmstu/hadoop/lab2/FlightGC.java
+/Users/shaniser/Desktop/Hadoop/HadoopLab2/src/main/java/ru/bmstu/hadoop/lab2/AirportWC.java
+/Users/shaniser/Desktop/Hadoop/HadoopLab2/src/main/java/ru/bmstu/hadoop/lab2/FlightReducer.java
