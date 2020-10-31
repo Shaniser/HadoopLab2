@@ -5,5 +5,5 @@ import org.apache.hadoop.mapreduce.Reducer;
 
 public class FlightReducer extends Reducer<AirportWC, Text, Text, Text> {
     @Override
-    protected void reduce(AirportWC key, )
+    protected void reduce(AirportWC key, Iterable<Text> value,)
 }
