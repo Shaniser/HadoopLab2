@@ -14,6 +14,7 @@ public class AirportWC implements WritableComparable {
         AirportWC other = (AirportWC) o;
         int ans = id - other.id;
         if (ans == 0)
+            return 
         return 0;
     }
 
