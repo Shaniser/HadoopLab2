@@ -11,7 +11,7 @@ public class AirportsListMapper extends Mapper<LongWritable, Text, AirportWC, Te
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         String[] values = value.toString().split(",(?! )");
         if (!values[0].equals("Code")) {
-            
+            AirportWC airportWC = 
         }
     }
 }
