@@ -15,7 +15,7 @@ public class AirportFlightsJoin {
         job.setJobName("Airport join");
         MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, AirportsListMapper.class);
         MultipleInputs.addInputPath(job, new Path(args[1]), TextInputFormat.class, FlightsListMapper.class);
-        FileOutputFormat.setOutputPath(job, new Path(args[1]));
+        FileOutputFormat.setOutputPath(job, new Path(args[2]));
         job.setPartitionerClass(AirportPartitioner.class);
         job.setGroupingComparatorClass(FlightGC.class);
         job.setReducerClass(FlightReducer.class);
