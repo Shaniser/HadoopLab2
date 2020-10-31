@@ -10,7 +10,7 @@ public class FlightsListMapper extends Mapper<LongWritable, Text, AirportWC, Tex
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         String[] values = value.toString().split(",");
-        if (!values[0].equals("Code")) {
+        if (!values[0].equals("\"YEAR\"")) {
 
         }
     }
