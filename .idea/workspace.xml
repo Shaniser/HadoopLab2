@@ -23,7 +23,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="faa5e3bc-ceff-4450-846d-f97184ce9a96" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/bmstu/hadoop/lab2/AirportWC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/bmstu/hadoop/lab2/AirportWC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604128168604</updated>
       <workItem from="1604128171136" duration="1064000" />
-      <workItem from="1604130067110" duration="105000" />
+      <workItem from="1604130067110" duration="419000" />
     </task>
     <servers />
   </component>
@@ -91,10 +90,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1604129318025" />
-    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1604129975492">
+    <state x="100" y="79" width="1240" height="719" key="DiffContextDialog" timestamp="1604130498421">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1604129975492" />
+    <state x="100" y="79" width="1240" height="719" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1604130498421" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1604130090038">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

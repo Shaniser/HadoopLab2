@@ -11,6 +11,8 @@ public class AirportWC implements WritableComparable {
     private int indicator;
     @Override
     public int compareTo(Object o) {
+        AirportWC other = (AirportWC) o;
+        
         return 0;
     }
 
