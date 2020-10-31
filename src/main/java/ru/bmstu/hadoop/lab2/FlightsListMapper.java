@@ -15,7 +15,9 @@ public class FlightsListMapper extends Mapper<LongWritable, Text, AirportWC, Tex
             String delayStr = values[18];
 
             if (cancelCode != 1 && !delayStr.isEmpty()) {
-                
+                if (Float.parseFloat(delayStr) > 0) {
+                    
+                }
             }
         }
     }
