@@ -14,6 +14,8 @@ public class AirportsListMapper extends Mapper<LongWritable, Text, AirportWC, Te
             AirportWC airportWC = new AirportWC();
 
             int id = Integer.parseInt(values[0].replaceAll("^\"+|\"+$", ""));
+            airportWC.setId(id);
+            airportWC.setIndicator(0);
             
         }
     }
