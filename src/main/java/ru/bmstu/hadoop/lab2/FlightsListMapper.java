@@ -12,8 +12,9 @@ public class FlightsListMapper extends Mapper<LongWritable, Text, AirportWC, Tex
         String[] values = value.toString().split(",");
         if (!values[0].equals("\"YEAR\"")) {
             float cancelCode = Float.parseFloat(values[19]);
+            String delayStr = values[18];
 
-            if (cancelCode != 1 && !values[18].isEmpty()) {
+            if (cancelCode != 1 && !delayStr.isEmpty()) {
                 
             }
         }
