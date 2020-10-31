@@ -6,5 +6,5 @@ import org.apache.hadoop.mapreduce.Mapper;
 
 public class AirportsListMapper extends Mapper<LongWritable, Text, AirportWC, Text> {
     @Override
-    protected void map(LongWritable, )
+    protected void map(LongWritable key, Text value, Context context)
 }
