@@ -7,5 +7,7 @@ import java.io.IOException;
 
 public class FlightReducer extends Reducer<AirportWC, Text, Text, Text> {
     @Override
-    protected void reduce(AirportWC key, Iterable<Text> value, Context context) throws IOException, InterruptedException
+    protected void reduce(AirportWC key, Iterable<Text> value, Context context) throws IOException, InterruptedException {
+        
+    }
 }
