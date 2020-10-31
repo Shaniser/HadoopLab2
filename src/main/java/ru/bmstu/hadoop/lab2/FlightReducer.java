@@ -25,6 +25,7 @@ public class FlightReducer extends Reducer<AirportWC, Text, Text, Text> {
             delayCount = 1;
 
             while (iterator.hasNext()) {
+                delay = Float.parseFloat(iterator.next().toString());
                 
             }
         }
